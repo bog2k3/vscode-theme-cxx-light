@@ -437,18 +437,6 @@
 				"foreground": "#811F3F"
 			}
 		},
-		/*{
-			"scope": "entity.name.tag",
-			"settings": {
-				"foreground": "#800000"
-			}
-		},
-		{
-			"scope": "entity.name.selector",
-			"settings": {
-				"foreground": "#800000"
-			}
-		},*/
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
@@ -1005,24 +993,6 @@
 			"scope": "support.class",
 			"settings": {
 				"foreground": "#0089AF"
-			}
-		},
-		{
-			"scope": "entity.name.function",
-			"settings": {
-				"foreground": "#8800D1"
-			}
-		},
-		{
-			"scope": "support.function",
-			"settings": {
-				"foreground": "#8800D1"
-			}
-		},
-		{
-			"scope": "function",
-			"settings": {
-				"foreground": "#8800d1"
 			}
 		},
 		{
