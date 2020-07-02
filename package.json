@@ -1,0 +1,22 @@
+{
+    "name": "cxx-light-theme",
+    "displayName": "C++ Light Theme",
+    "description": "A light and clear theme for C++ with enough colors to make reading easy, but not too colorful",
+    "version": "1.0.0",
+    "publisher": "BogdanIonita",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "C++ Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/C++ Light Theme-color-theme.json"
+            }
+        ]
+    }
+}
