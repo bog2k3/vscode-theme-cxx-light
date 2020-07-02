@@ -2,7 +2,7 @@
     "name": "cxx-light-theme",
     "displayName": "C++ Light Theme",
     "description": "A light and clear theme for C++ with enough colors to make reading easy, but not too colorful",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "BogdanIonita",
     "repository": "https://github.com/bog2k3/vscode-theme-cxx-light",
     "engines": {
