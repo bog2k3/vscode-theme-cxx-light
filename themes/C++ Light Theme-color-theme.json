@@ -437,7 +437,7 @@
 				"foreground": "#811F3F"
 			}
 		},
-		{
+		/*{
 			"scope": "entity.name.tag",
 			"settings": {
 				"foreground": "#800000"
@@ -448,11 +448,11 @@
 			"settings": {
 				"foreground": "#800000"
 			}
-		},
+		},*/
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#FF0000"
+				"foreground": "#8800d1"
 			}
 		},
 		{
@@ -468,7 +468,7 @@
 				"entity.other.attribute-name.scss"
 			],
 			"settings": {
-				"foreground": "#800000"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -552,12 +552,6 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.tag",
-			"settings": {
-				"foreground": "#800000"
-			}
-		},
-		{
 			"scope": [
 				"meta.preprocessor",
 				"entity.name.function.preprocessor"
@@ -626,28 +620,6 @@
 			}
 		},
 		{
-			"scope": [
-				"string.comment.buffered.block.pug",
-				"string.quoted.pug",
-				"string.interpolated.pug",
-				"string.unquoted.plain.in.yaml",
-				"string.unquoted.plain.out.yaml",
-				"string.unquoted.block.yaml",
-				"string.quoted.single.yaml",
-				"string.quoted.double.xml",
-				"string.quoted.single.xml",
-				"string.unquoted.cdata.xml",
-				"string.quoted.double.html",
-				"string.quoted.single.html",
-				"string.unquoted.html",
-				"string.quoted.single.handlebars",
-				"string.quoted.double.handlebars"
-			],
-			"settings": {
-				"foreground": "#0000FF"
-			}
-		},
-		{
 			"scope": "string.regexp",
 			"settings": {
 				"foreground": "#811F3F"
@@ -695,7 +667,7 @@
 				"source.coffee.embedded"
 			],
 			"settings": {
-				"foreground": "#FF0000"
+				"foreground": "#8800d1"
 			}
 		},
 		{
@@ -707,7 +679,10 @@
 			}
 		},
 		{
-			"scope": "keyword",
+			"scope": [
+				"keyword",
+				"entity.name.tag"
+			],
 			"settings": {
 				"foreground": "#0000FF"
 			}
@@ -749,15 +724,6 @@
 			}
 		},
 		{
-			"scope": [
-				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php"
-			],
-			"settings": {
-				"foreground": "#800000"
-			}
-		},
-		{
 			"scope": "support.function.git-rebase",
 			"settings": {
 				"foreground": "#0451A5"
@@ -794,7 +760,7 @@
 				"entity.name.operator.custom-literal"
 			],
 			"settings": {
-				"foreground": "#795E26"
+				"foreground": "#8800d1"
 			}
 		},
 		{
@@ -848,19 +814,6 @@
 			],
 			"settings": {
 				"foreground": "#267F99"
-			}
-		},
-		{
-			"scope": [
-				"keyword.control",
-				"source.cpp keyword.operator.new",
-				"source.cpp keyword.operator.delete",
-				"keyword.other.using",
-				"keyword.other.operator",
-				"entity.name.operator"
-			],
-			"settings": {
-				"foreground": "#AF00DB"
 			}
 		},
 		{
@@ -1064,6 +1017,12 @@
 			"scope": "support.function",
 			"settings": {
 				"foreground": "#8800D1"
+			}
+		},
+		{
+			"scope": "function",
+			"settings": {
+				"foreground": "#8800d1"
 			}
 		},
 		{
