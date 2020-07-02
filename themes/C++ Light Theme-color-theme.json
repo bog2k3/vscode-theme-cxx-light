@@ -970,6 +970,19 @@
 			}
 		},
 		{
+			"scope": "comment.command",
+			"settings": {
+				"foreground": "#a5a5a5",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "comment.variable",
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
 			"scope": "punctuation.definition.comment",
 			"settings": {
 				"foreground": "#AFAFAF"
